@@ -4,7 +4,7 @@ import Dashboard from "../pages/Dashboard"
 import Login from "../pages/Login"
 import Register from "../pages/Register"
 
-export default function BasicRoutings() {
+export default function BasicRouting() {
   return (
     <Routes>
         <Route path="/" element={<Home />} />
