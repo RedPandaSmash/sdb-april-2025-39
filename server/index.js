@@ -11,6 +11,8 @@ dotenv.config()
 
 const app = express();
 
+app.use(cors());
+
 const PORT = process.env.PORT || 8080
 const MONGO = process.env.MONGODB;
 
