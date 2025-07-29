@@ -1,8 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { useNavigate } from 'react-router'
 
-
-
 export default function Dashboard() {
     const [data, setData] = useState(null)
     const navigate = useNavigate()
