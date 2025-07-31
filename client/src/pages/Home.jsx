@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Card } from "reactstrap";
 
 export default function Home() {
   return (
-    <div>Home</div>
-  )
+    <Card color="success" body="true">
+      Home
+    </Card>
+  );
 }
